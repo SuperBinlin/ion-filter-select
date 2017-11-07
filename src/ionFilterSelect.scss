@@ -1,0 +1,73 @@
+ion-filter-select{
+  .ion-filter-select-wp{
+    //position:relative;
+  }
+  .filter-hospital{
+    padding-left:12px;
+    padding-right:0px;
+    font-size:1.7rem;
+    .filter-input{
+      position:relative;
+      top:1px;
+      input{
+        text-align:right;
+      }
+    }
+    .row{
+      border-bottom:0.55px solid #c8c7cc;
+    }
+    .arrow-bottom{
+      position:relative;
+      top:10px;
+    }
+  }
+
+  .hospital-wrap{
+    width:100%;
+    position:relative;
+    .grid{
+      padding:0px;
+      .col{
+        padding:0px;
+      }
+    }
+    .hospital-ul{
+      position:absolute;
+      width:100%;
+      z-index:10000;
+      background:#fff;
+      list-style:none;
+      padding-left:1.1rem;
+      border-radius:10px;
+      margin-top:0px;
+      right:5px;
+      max-height:400px;
+      overflow:auto;
+      li{
+        height:4rem;
+        line-height:4rem;
+        border-bottom:0.55px solid #c8c7cc;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        &.active{
+          color:#4a8bfc;
+        }
+      }
+      li:last-child {
+        border:none;
+      }
+    }
+  }
+
+  .select-popup{
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background:#000;
+    opacity:.08;
+    z-index:9999;
+  }
+}
