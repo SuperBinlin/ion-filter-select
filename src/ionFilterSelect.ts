@@ -7,12 +7,7 @@
 import { Component, Input, OnChanges, Output, EventEmitter} from '@angular/core';
 import * as _ from 'lodash';
 
-declare var module: {
-  id: any;
-}
-
 @Component({
-    moduleId: module.id.toString(),
     selector: 'ion-filter-select',
     template: `
       <div class="ion-filter-select-wp">

@@ -1,1 +1,1 @@
-export * from './src/ionFilterSelect.module';
+export { IonFilterSelect } from './src/ionFilterSelect.module';
