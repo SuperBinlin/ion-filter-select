@@ -72,9 +72,9 @@ Add the directive in the html page
   ...
 ]
 ```
-+ labelItem(@Input)
++ labelItem(@Input)  
 label文本 接收String
-+ dispatchId(@Output)
++ dispatchId(@Output)  
 选择一个选项后的回调函数，返回当前选中选项的value值
 
 # Attention
