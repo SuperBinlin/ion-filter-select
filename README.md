@@ -13,7 +13,7 @@ npm install ion-filter-select --save
 ```
 + Add IonFilterSelect import to your @NgModule like example below  
 在你的@NgModule中添加IonFilterSelect模块
-```
+```javascript
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -42,7 +42,7 @@ export class AppModule {}
 # Usage
 Add the directive in the html page  
 在html中添加组件标签
-```
+```html
 <ion-filter-select 
   [setData]="innerData" 
   [labelItem]="'学校'" 
@@ -58,7 +58,7 @@ Add the directive in the html page
 | value     | Number      |  被选中后返回的value |
 | active | Boolean     |   是否被选中 |
 
-```
+```json
 [
   {
     'text':'上海大学',
